@@ -21,3 +21,4 @@ print("\n")
 
 print("Checking for which dimensional array:")
 print(f"we'll use List.ndim: {List.ndim}") # ndim : n-dimensional
+print(f"Shape of List.shape: {List.shape}")

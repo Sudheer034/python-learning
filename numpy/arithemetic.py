@@ -28,3 +28,31 @@ print(f"array1 - array2: {array1 - array2}") # [-3 -3 -3]
 print(f"array1 * array2: {array1 * array2}") # [ 4 10 18]
 print(f"array1 / array2: {array1 / array2}") # [0.25 0.4  0.5 ]
 print(f"array1 ** array2: {array1 ** array2}") # [  1  32 729]
+
+print("\n")
+
+print("Basic Math Arithemtic")
+
+List = [1.01, 2.9, 3.5]
+
+print(f"np.sqrt(List): {np.sqrt(List)}") # sqrt of an num
+print(f"np.round(List): {np.round(List)}") # rounding to the nearest decimal
+print(f"np.ceil(List): {np.ceil(List)}") # rounding with extra offset
+print(f"np.floor(List): {np.floor(List)}") # rounding with low offset
+
+print("\n")
+
+# COMPARISON OPERATOR
+
+print("Comparison Operators")
+print("I got an array: Plick = [1,2,3]")
+Plick = np.array([1,2,3])
+
+print(f"Plick == 3 {Plick == 3}") # [False False  True]
+print(f"Plick == 3 {Plick < 3}") # [True True  False]
+
+print("")
+
+Plick[Plick < 2] = 0
+
+print(f"Plick[Plick < 2] = 0:  {Plick }") # [0 2 3]
