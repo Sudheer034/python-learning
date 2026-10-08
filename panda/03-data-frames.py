@@ -14,6 +14,6 @@ df["Recorded?"] = ["Yes", "No", "No", "No", "No", "No", "No", "No", "No"]
 # adding a new row
 new_rows = pd.DataFrame([{"Pokemon": "Caterpie", "Type 1": "Bug", "Type 2": "None", "Recorded?":"Yes"}, {"Pokemon": "Metapod", "Type 1": "Bug", "Type 2": "None", "Recorded?":"Yes"}], index=[10,11])
 
-df = pd.concat([df, new_rows]) # it takes an list, thats surprising
+df = pd.concat([df, new_rows]) # it takes an list, thats surprising, it does make sense :)
 
 print(df)
