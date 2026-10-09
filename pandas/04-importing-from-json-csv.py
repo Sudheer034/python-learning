@@ -1,8 +1,8 @@
 import pandas as pd
 
-pokemonCSV = pd.read_csv("panda/pokemon.csv") # to read csv file :)
+pokemonCSV = pd.read_csv("pandas/pokemon.csv") # to read csv file :)
 
-pokemoJSON = pd.read_json("panda/pokemon.json") # yay we loaded json too
+pokemoJSON = pd.read_json("pandas/pokemon.json") # yay we loaded json too
 
 # print(pokemonCSV.to_string()) 
 # normally we get trunketted version of it, we can make it as string and print all the data
